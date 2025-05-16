@@ -1,0 +1,40 @@
+
+<%- include("layout/header") %>
+
+        <main>
+
+            <div id="mainDiv">
+
+                <div id="inputDiv">
+
+                    <form action="/" method="post">
+
+                        <input type="text" name="language" id="language" placeholder="Enter programming language">
+                        <button type="submit">ADD</button>
+                    </form>
+
+                </div>
+
+                <div id="languageDiv">
+
+                    <ul>
+
+                        <% if(programmingLanguages.length > 0){ %>
+
+                            <% for(let v of programmingLanguages){ %>
+                                <li> <%= v %> </li>
+                            <% } %>
+
+                            <% } else { %>
+                            <p>NO Data Found !</p>
+                        <% } %>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <%- include("layout/footer") %>

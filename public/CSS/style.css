@@ -1,0 +1,64 @@
+/* initial design  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* main design  */
+
+#mainDiv{
+
+    width: 70%;
+    padding: 15px;
+    margin: 2% auto;
+    text-align: center;
+
+}
+
+nav{
+    text-align: center;
+    margin: 15px auto;
+
+}
+
+nav ul li{
+
+    display: inline;
+    margin: 10px;
+    list-style-type: none;
+
+}
+
+form{
+    display: flex;
+}
+
+#languageDiv ul li{
+    list-style-type: none;
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#languageDiv ul li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+footer h6{
+    text-align: center;
+}
+
+
+.design1{
+    text-align: center;
+    color: tomato;
+}
